@@ -1,17 +1,17 @@
 import { BrowserRouter, Routes, Route, Navigate } from "react-router-dom";
-import Login from "@/Pages/Auth/Login";
-import Register from "@/Pages/Auth/Register";
-import Dashboard from "@/Pages/Dashboard";
-import ProtectedRoute from "@/hooks/ProtectedRoute";
-import GuestLayout from "@/Layouts/GuestLayout";
-import AdminLayout from "@/Layouts/AdminLayout";
-import InternProfile from "@/Pages/InternProfile";
-import InternsList from "@/Pages/InternsList";
-import AllProjects from "@/Pages/AllProjects";
-import UsersManagement from "@/Pages/UsersList";
-import AuditLogs from "@/Pages/AuditLogs";
-import Settings from "@/Pages/Settings";
-import ForceChangePassword from "@/Pages/Auth/ForceChangePassword";
+import Login from "@/Pages/Auth/Login.jsx";
+import Register from "@/Pages/Auth/Register.jsx";
+import Dashboard from "@/Pages/Dashboard.jsx";
+import ProtectedRoute from "@/hooks/ProtectedRoute.jsx";
+import GuestLayout from "@/Layouts/GuestLayout.jsx";
+import AdminLayout from "@/Layouts/AdminLayout.jsx";
+import InternProfile from "@/Pages/InternProfile.jsx";
+import InternsList from "@/Pages/InternsList.jsx";
+import AllProjects from "@/Pages/AllProjects.jsx";
+import UsersManagement from "@/Pages/UsersList.jsx";
+import AuditLogs from "@/Pages/AuditLogs.jsx";
+import Settings from "@/Pages/Settings.jsx";
+import ForceChangePassword from "@/Pages/Auth/ForceChangePassword.jsx";
 
 export default function App() {
   return (
