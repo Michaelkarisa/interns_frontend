@@ -1,8 +1,8 @@
 // src/utils/axios.js
 import axios from "axios";
-const APP_URL= "http://localhost:8000/";
+const APP_URL= "http://68.178.207.103:8001/";
 const api = axios.create({
-  baseURL: "http://localhost:8000/api",
+  baseURL: "http://68.178.207.103:8001/api",
 });
 
 api.interceptors.request.use((config) => {
