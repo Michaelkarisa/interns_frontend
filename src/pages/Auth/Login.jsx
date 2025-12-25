@@ -1,12 +1,11 @@
 import { useState } from 'react';
 import { Eye, EyeOff } from 'lucide-react';
-import axios from 'axios';
 import { useAuthStore } from '@/Stores/authStore';
-import { Checkbox } from '@/Layouts/checkbox';
-import InputError from '@/Layouts/InputError';
-import InputLabel from '@/Layouts/InputLabel';
-import PrimaryButton from '@/Layouts/PrimaryButton';
-import TextInput from '@/Layouts/TextInput';
+import { Checkbox } from '@/Layouts1/ui/checkbox';
+import InputError from '@/Layouts1/InputError';
+import InputLabel from '@/Layouts1/InputLabel';
+import PrimaryButton from '@/Layouts1/PrimaryButton';
+import TextInput from '@/Layouts1/TextInput';
 import { Link, useLocation, useNavigate } from "react-router-dom";
 export default function Login() {
   const [showPassword, setShowPassword] = useState(false);
