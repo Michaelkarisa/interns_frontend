@@ -4,7 +4,7 @@ import { cva } from "class-variance-authority";
 import { PanelLeft } from "lucide-react"
 
 import { useIsMobile } from "@/hooks/use-mobile"
-import { cn } from "@/lib/utils"
+import { cn } from "@/Lib/utils"
 import { Button } from "@/Layouts1/ui/button"
 import { Input } from "@/Layouts1/ui/input"
 import { Separator } from "@/Layouts1/ui/separator"

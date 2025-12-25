@@ -1,17 +1,17 @@
 import { BrowserRouter, Routes, Route, Navigate } from "react-router-dom";
-import Login from "./pages/Auth/Login";
-import Register from "./pages/Auth/Register";
-import Dashboard from "./pages/Dashboard";
+import Login from "./Pages/Auth/Login";
+import Register from "./Pages/Auth/Register";
+import Dashboard from "./Pages/Dashboard";
 import ProtectedRoute from "./hooks/ProtectedRoute";
 import GuestLayout from "./Layouts/GuestLayout";
 import AdminLayout from "./Layouts/AdminLayout";
-import InternProfile from "./pages/InternProfile";
-import InternsList from "./pages/InternsList";
-import AllProjects from "./pages/AllProjects";
-import UsersManagement from "./pages/UsersList";
-import AuditLogs from "./pages/AuditLogs";
-import Settings from "./pages/Settings";
-import ForceChangePassword from "./pages/Auth/ForceChangePassword";
+import InternProfile from "./Pages/InternProfile";
+import InternsList from "./Pages/InternsList";
+import AllProjects from "./Pages/AllProjects";
+import UsersManagement from "./Pages/UsersList";
+import AuditLogs from "./Pages/AuditLogs";
+import Settings from "./Pages/Settings";
+import ForceChangePassword from "./Pages/Auth/ForceChangePassword";
 
 export default function App() {
   return (
