@@ -11,7 +11,7 @@ import { Card } from '@/components/ui/card';
 import { User, ArrowRight, AlertCircle, Download } from 'lucide-react';
 import { PaginationControls } from '@/Layouts/PaginationControls';
 import DateInputWithIcon from '@/Layouts/DateInputWithIcon';
-import InternForm from '@/pages/interns/InternForm';
+import InternForm from '@/pages/Intern/InternForm';
 import PerformanceBadge from '@/Layouts/PerformanceBadge';
 import RecommendationBadge from '@/Layouts/RecommendationBadge';
 import api from '@/api/apiClient';

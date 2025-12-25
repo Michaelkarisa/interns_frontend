@@ -9,7 +9,7 @@ import axios from 'axios';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 import AnimatedNumber from '@/Layouts/AnimatedNumber';
 import { CheckCircle, AlertCircle } from 'lucide-react';
-import InternCard from '@/pages/interns/InternCard';
+import InternCard from '@/pages/Intern/InternCard';
 import { useAdminStore } from '@/Stores/adminStore';
 import api from '@/api/apiClient';
 
