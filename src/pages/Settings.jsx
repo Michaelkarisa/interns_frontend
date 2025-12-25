@@ -5,12 +5,12 @@ import {
   TabsContent,
   TabsList,
   TabsTrigger
-} from '@/Layouts1/ui/tabs';
-import { Card, CardContent } from '@/Layouts1/ui/card';
-import { Button } from '@/Layouts1/ui/button';
-import { Input } from '@/Layouts1/ui/input';
-import { Label } from '@/Layouts1/ui/label';
-import { Textarea } from '@/Layouts1/ui/textarea';
+} from '@/components/ui/tabs';
+import { Card, CardContent } from '@/components/ui/card';
+import { Button } from '@/components/ui/button';
+import { Input } from '@/components/ui/input';
+import { Label } from '@/components/ui/label';
+import { Textarea } from '@/components/ui/textarea';
 import {
   AlertCircle,
   Upload,
@@ -24,7 +24,7 @@ import {
   Edit,
   Settings2Icon,
 } from 'lucide-react';
-import api from '@/Api/apiClient';
+import api from '@/api/apiClient';
 import DeleteUserForm from './Profile/Partials/DeleteUserForm';
 import UpdatePasswordForm from './Profile/Partials/UpdatePasswordForm';
 import UpdateProfileInformation from './Profile/Partials/UpdateProfileInformationForm';

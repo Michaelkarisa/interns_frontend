@@ -1,12 +1,12 @@
 // src/pages/Profile/Partials/DeleteUserForm.jsx
 import { useState, useRef, useEffect } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
-import api from '@/Api/apiClient';
-import DangerButton from '@/Layouts1/DangerButton';
-import SecondaryButton from '@/Layouts1/SecondaryButton';
-import InputLabel from '@/Layouts1/InputLabel';
-import InputError from '@/Layouts1/InputError';
-import { Input } from '@/Layouts1/ui/input';
+import api from '@/api/apiClient';
+import DangerButton from '@/components/DangerButton';
+import SecondaryButton from '@/components/SecondaryButton';
+import InputLabel from '@/components/InputLabel';
+import InputError from '@/components/InputError';
+import { Input } from '@/components/ui/input';
 import { Eye, EyeOff } from 'lucide-react';
 import { useNavigate } from "react-router-dom";
 

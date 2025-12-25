@@ -1,12 +1,12 @@
 // src/pages/Profile/Partials/UpdateProfileInformation.jsx
 import { useState, useEffect } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
-import InputLabel from '@/Layouts1/InputLabel';
-import TextInput from '@/Layouts1/TextInput';
-import InputError from '@/Layouts1/InputError';
-import PrimaryButton from '@/Layouts1/PrimaryButton';
-import api from '@/Api/apiClient';
-import { Input } from '@/Layouts1/ui/input';
+import InputLabel from '@/components/InputLabel';
+import TextInput from '@/components/TextInput';
+import InputError from '@/components/InputError';
+import PrimaryButton from '@/components/PrimaryButton';
+import api from '@/api/apiClient';
+import { Input } from '@/components/ui/input';
 
 export default function UpdateProfileInformation({ user, className = '' }) {
     const [formData, setFormData] = useState({

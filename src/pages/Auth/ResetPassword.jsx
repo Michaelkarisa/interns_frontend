@@ -1,9 +1,9 @@
 import { useState } from 'react';
 import axios from 'axios';
-import InputError from '@/Layouts1/InputError';
-import InputLabel from '@/Layouts1/InputLabel';
-import PrimaryButton from '@/Layouts1/PrimaryButton';
-import TextInput from '@/Layouts1/TextInput';
+import InputError from '@/components/InputError';
+import InputLabel from '@/components/InputLabel';
+import PrimaryButton from '@/components/PrimaryButton';
+import TextInput from '@/components/TextInput';
 import GuestLayout from '@/Layouts/GuestLayout';
 
 export default function ResetPassword({ token, email, onAuth }) {

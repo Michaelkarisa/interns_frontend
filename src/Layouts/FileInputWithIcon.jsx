@@ -1,6 +1,6 @@
 import { UploadIcon, XIcon, FileIcon } from "lucide-react";
 import { useRef, useState } from "react";
-import { Input } from "@/Layouts1/ui/input";
+import { Input } from "@/components/ui/input";
 
 const MAX_FILE_SIZE_MB = 4; // Passport photos usually ≤ 4MB
 const IMAGE_TYPES = ["image/jpeg", "image/png", "image/webp"];

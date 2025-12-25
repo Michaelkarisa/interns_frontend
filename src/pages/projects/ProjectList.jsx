@@ -2,8 +2,8 @@
 import { useEffect } from 'react';
 import { create } from 'zustand';
 import { motion, AnimatePresence } from 'framer-motion';
-import { Button } from '@/Layouts1/ui/button';
-import { Card, CardContent, CardHeader, CardTitle } from '@/Layouts1/ui/card';
+import { Button } from '@/components/ui/button';
+import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 import { X } from 'lucide-react';
 import ProjectForm from './ProjectForm';
 import axios from 'axios';

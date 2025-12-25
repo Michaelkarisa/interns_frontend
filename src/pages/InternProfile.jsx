@@ -6,20 +6,20 @@ import {
   TabsContent,
   TabsList,
   TabsTrigger
-} from '@/Layouts1/ui/tabs';
-import { Avatar, AvatarFallback, AvatarImage } from '@/Layouts1/ui/avatar';
-import { Button } from '@/Layouts1/ui/button';
+} from '@/components/ui/tabs';
+import { Avatar, AvatarFallback, AvatarImage } from '@/components/ui/avatar';
+import { Button } from '@/components/ui/button';
 import { 
   Card, 
   CardContent, 
   CardHeader, 
   CardTitle 
-} from '@/Layouts1/ui/card';
-import { Label } from '@/Layouts1/ui/label';
-import { Switch } from '@/Layouts1/ui/switch';
-import { Slider } from '@/Layouts1/ui/slider';
-import { Textarea } from '@/Layouts1/ui/textarea';
-import { Input } from '@/Layouts1/ui/input';
+} from '@/components/ui/card';
+import { Label } from '@/components/ui/label';
+import { Switch } from '@/components/ui/switch';
+import { Slider } from '@/components/ui/slider';
+import { Textarea } from '@/components/ui/textarea';
+import { Input } from '@/components/ui/input';
 import { 
   AlertCircle, 
   Edit, 
@@ -31,7 +31,7 @@ import DateInputWithIcon from '@/Layouts/DateInputWithIcon';
 import ProjectList from './Projects/ProjectList';
 import PerformanceBadge from '@/Layouts/PerformanceBadge';
 import RecommendationBadge from '@/Layouts/RecommendationBadge';
-import api from '@/Api/apiClient';
+import api from '@/api/apiClient';
 import { create } from 'zustand';
 
 // ===========================

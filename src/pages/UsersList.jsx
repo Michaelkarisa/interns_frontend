@@ -9,10 +9,10 @@ import {
   TableHead,
   TableHeader,
   TableRow,
-} from '@/Layouts1/ui/table';
-import { Card, CardContent } from '@/Layouts1/ui/card';
-import { Button } from '@/Layouts1/ui/button';
-import { Input } from '@/Layouts1/ui/input';
+} from '@/components/ui/table';
+import { Card, CardContent } from '@/components/ui/card';
+import { Button } from '@/components/ui/button';
+import { Input } from '@/components/ui/input';
 import {
   AlertCircle,
   Search,
@@ -32,9 +32,9 @@ import {
   DialogDescription,
   DialogHeader,
   DialogTitle,
-} from '@/Layouts1/ui/dialog';
-import { Label } from '@/Layouts1/ui/label';
-import api from '@/Api/apiClient';
+} from '@/components/ui/dialog';
+import { Label } from '@/components/ui/label';
+import api from '@/api/apiClient';
 
 // ===========================
 // MAIN USERS STORE

@@ -1,20 +1,20 @@
 // GuestLayout.jsx
-import ApplicationLogo from '@/Layouts1/ApplicationLogo';
-import Login from '@/Pages/Auth/Login';
-import Register from '@/Pages/Auth/Register';
-import ForgotPassword from '@/Pages/Auth/ForgotPassword';
-import ResetPassword from '@/Pages/Auth/ResetPassword';
-import ConfirmPassword from '@/Pages/Auth/ConfirmPassword';
-import VerifyEmail from '@/Pages/Auth/VerifyEmail';
-import ForceChangePassword from '@/Pages/Auth/ForceChangePassword';
+import ApplicationLogo from '@/components/ApplicationLogo';
+import Login from '@/pages/Auth/Login';
+import Register from '@/pages/Auth/Register';
+import ForgotPassword from '@/pages/Auth/ForgotPassword';
+import ResetPassword from '@/pages/Auth/ResetPassword';
+import ConfirmPassword from '@/pages/Auth/ConfirmPassword';
+import VerifyEmail from '@/pages/Auth/VerifyEmail';
+import ForceChangePassword from '@/pages/Auth/ForceChangePassword';
 
 import { useEffect, useState } from 'react';
 import { useAuthStore } from '@/Stores/authStore';
-import { Carousel, CarouselContent, CarouselItem } from "@/Layouts1/ui/carousel";
+import { Carousel, CarouselContent, CarouselItem } from "@/components/ui/carousel";
 import { ShieldCheck, UserPlus, Lock, Mail, Zap, Users } from "lucide-react";
 import Autoplay from "embla-carousel-autoplay";
 import { Link, Navigate, useLocation, useNavigate } from "react-router-dom";
-import Dashboard from '@/Pages/Dashboard';
+import Dashboard from '@/pages/Dashboard';
 import LoadingIndicator from './LoadingIndicator';
 
 // Map paths to components

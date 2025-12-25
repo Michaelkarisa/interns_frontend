@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import axios from 'axios';
-import PrimaryButton from '@/Layouts1/PrimaryButton';
+import PrimaryButton from '@/components/PrimaryButton';
 import GuestLayout from '@/Layouts/GuestLayout';
 
 export default function VerifyEmail({ status, onAuth }) {

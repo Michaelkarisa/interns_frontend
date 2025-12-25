@@ -3,18 +3,18 @@ import { useEffect } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { motion, AnimatePresence } from 'framer-motion';
 import { create } from 'zustand';
-import { Input } from '@/Layouts1/ui/input';
-import { Table, TableBody, TableCell, TableHead, TableHeader, TableRow } from '@/Layouts1/ui/table';
-import { Button } from '@/Layouts1/ui/button';
-import { Avatar, AvatarFallback, AvatarImage } from '@/Layouts1/ui/avatar';
-import { Card } from '@/Layouts1/ui/card';
+import { Input } from '@/components/ui/input';
+import { Table, TableBody, TableCell, TableHead, TableHeader, TableRow } from '@/components/ui/table';
+import { Button } from '@/components/ui/button';
+import { Avatar, AvatarFallback, AvatarImage } from '@/components/ui/avatar';
+import { Card } from '@/components/ui/card';
 import { User, ArrowRight, AlertCircle, Download } from 'lucide-react';
 import { PaginationControls } from '@/Layouts/PaginationControls';
 import DateInputWithIcon from '@/Layouts/DateInputWithIcon';
-import InternForm from '@/Pages/Interns/InternForm';
+import InternForm from '@/pages/interns/InternForm';
 import PerformanceBadge from '@/Layouts/PerformanceBadge';
 import RecommendationBadge from '@/Layouts/RecommendationBadge';
-import api from '@/Api/apiClient';
+import api from '@/api/apiClient';
 
 // ===========================
 // ZUSTAND STORE (Complete state & logic)

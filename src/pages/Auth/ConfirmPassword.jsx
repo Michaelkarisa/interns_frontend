@@ -1,10 +1,10 @@
 import { useState } from 'react';
 import axios from 'axios';
 
-import InputLabel from '@/Layouts1/InputLabel';
-import TextInput from '@/Layouts1/TextInput';
-import InputError from '@/Layouts1/InputError';
-import PrimaryButton from '@/Layouts1/PrimaryButton';
+import InputLabel from '@/components/InputLabel';
+import TextInput from '@/components/TextInput';
+import InputError from '@/components/InputError';
+import PrimaryButton from '@/components/PrimaryButton';
 import GuestLayout from '@/Layouts/GuestLayout';
 
 export default function ConfirmPassword({ onAuth }) {

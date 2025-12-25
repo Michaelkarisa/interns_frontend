@@ -15,7 +15,7 @@ import {
   LogOut,
   User
 } from 'lucide-react';
-import { Button } from '@/Layouts1/ui/button';
+import { Button } from '@/components/ui/button';
 import {
   DropdownMenu,
   DropdownMenuContent,
@@ -23,8 +23,8 @@ import {
   DropdownMenuLabel,
   DropdownMenuSeparator,
   DropdownMenuTrigger,
-} from '@/Layouts1/ui/dropdown-menu';
-import { Avatar, AvatarFallback, AvatarImage } from '@/Layouts1/ui/avatar';
+} from '@/components/ui/dropdown-menu';
+import { Avatar, AvatarFallback, AvatarImage } from '@/components/ui/avatar';
 import { useAuthStore } from '@/Stores/authStore';
 
 import {
@@ -36,8 +36,8 @@ import {
   AlertDialogFooter,
   AlertDialogHeader,
   AlertDialogTitle,
-} from "@/Layouts1/ui/alert-dialog";
-import { useAppStore } from '@/Api/favicon';
+} from "@/components/ui/alert-dialog";
+import { useAppStore } from '@/api/favicon';
 
 const navItems = [
   { name: 'Dashboard', href: '/dashboard', icon: LayoutDashboard },
