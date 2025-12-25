@@ -3,10 +3,10 @@ import { Eye, EyeOff } from 'lucide-react';
 import axios from 'axios';
 import { useAuthStore } from '@/Stores/authStore';
 import { Link } from 'react-router-dom';
-import InputError from '@/Components/InputError';
-import InputLabel from '@/Components/InputLabel';
-import PrimaryButton from '@/Components/PrimaryButton';
-import TextInput from '@/Components/TextInput';
+import InputError from '@/Layouts1/InputError';
+import InputLabel from '@/Layouts1/InputLabel';
+import PrimaryButton from '@/Layouts1/PrimaryButton';
+import TextInput from '@/Layouts1/TextInput';
 
 export default function Register() {
     const [showPassword, setShowPassword] = useState(false);

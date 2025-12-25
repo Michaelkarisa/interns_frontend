@@ -3,11 +3,11 @@ import { useRef, useState, useEffect } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { Eye, EyeOff } from 'lucide-react';
 import axios from 'axios';
-import InputLabel from '@/Components/InputLabel';
-import TextInput from '@/Components/TextInput';
-import InputError from '@/Components/InputError';
-import PrimaryButton from '@/Components/PrimaryButton';
-import { Input } from '@/Components/ui/input';
+import InputLabel from '@/Layouts1/InputLabel';
+import TextInput from '@/Layouts1/TextInput';
+import InputError from '@/Layouts1/InputError';
+import PrimaryButton from '@/Layouts1/PrimaryButton';
+import { Input } from '@/Layouts1/ui/input';
 
 export default function UpdatePasswordForm({ className = '' }) {
     const passwordInput = useRef();

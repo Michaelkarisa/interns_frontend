@@ -9,9 +9,9 @@ import {
   TableHead,
   TableHeader,
   TableRow,
-} from '@/Components/ui/table';
-import { Card, CardContent } from '@/Components/ui/card';
-import { Button } from '@/Components/ui/button';
+} from '@/Layouts1/ui/table';
+import { Card, CardContent } from '@/Layouts1/ui/card';
+import { Button } from '@/Layouts1/ui/button';
 import {
   AlertCircle,
   ExternalLink,
@@ -22,7 +22,7 @@ import {
 } from 'lucide-react';
 import { PaginationControls } from '@/Layouts/PaginationControls';
 import DateInputWithIcon from '@/Layouts/DateInputWithIcon';
-import { Input } from '@/Components/ui/input';
+import { Input } from '@/Layouts1/ui/input';
 import api from '@/api/apiClient'; // ✅ Your configured axios instance
 
 // ===========================

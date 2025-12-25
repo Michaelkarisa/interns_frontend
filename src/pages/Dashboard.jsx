@@ -6,7 +6,7 @@ import { create } from 'zustand';
 import { useEffect } from 'react';
 import { motion } from 'framer-motion';
 import axios from 'axios';
-import { Card, CardContent, CardHeader, CardTitle } from '@/Components/ui/card';
+import { Card, CardContent, CardHeader, CardTitle } from '@/Layouts1/ui/card';
 import AnimatedNumber from '@/Layouts/AnimatedNumber';
 import { CheckCircle, AlertCircle } from 'lucide-react';
 import InternCard from '@/Pages/interns/InternCard';

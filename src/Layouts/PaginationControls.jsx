@@ -1,4 +1,4 @@
-import { Button } from '@/Components/ui/button';
+import { Button } from '@/Layouts1/ui/button';
 
 export const PaginationControls = ({ links, from, to, total, onPageChange, text }) => {
   if (!links || links.length === 0) return null;

@@ -1,7 +1,7 @@
 import { CalendarIcon } from "lucide-react";
 import DatePicker from "react-datepicker";
 import "react-datepicker/dist/react-datepicker.css";
-import { Input } from "../Components/ui/input";
+import { Input } from "../Layouts1/ui/input";
 
 const DateInputWithIcon = ({ name, value, onChange }) => {
   // Ensure value is a Date object or null

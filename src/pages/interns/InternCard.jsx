@@ -1,9 +1,9 @@
 import { useNavigate } from "react-router-dom";
-import { Card, CardContent } from "@/Components/ui/card";
-import { Avatar, AvatarFallback, AvatarImage } from "@/Components/ui/avatar";
+import { Card, CardContent } from "@/Layouts1/ui/card";
+import { Avatar, AvatarFallback, AvatarImage } from "@/Layouts1/ui/avatar";
 import PerformanceBadge from "@/Layouts/PerformanceBadge";
 import RecommendationBadge from "@/Layouts/RecommendationBadge";
-import { Button } from "@/Components/ui/button";
+import { Button } from "@/Layouts1/ui/button";
 import { User, ArrowRight } from "lucide-react";
 
 const InternCard = ({ intern }) => {

@@ -6,20 +6,20 @@ import {
   TabsContent,
   TabsList,
   TabsTrigger
-} from '@/Components/ui/tabs';
-import { Avatar, AvatarFallback, AvatarImage } from '@/Components/ui/avatar';
-import { Button } from '@/Components/ui/button';
+} from '@/Layouts1/ui/tabs';
+import { Avatar, AvatarFallback, AvatarImage } from '@/Layouts1/ui/avatar';
+import { Button } from '@/Layouts1/ui/button';
 import { 
   Card, 
   CardContent, 
   CardHeader, 
   CardTitle 
-} from '@/Components/ui/card';
-import { Label } from '@/Components/ui/label';
-import { Switch } from '@/Components/ui/switch';
-import { Slider } from '@/Components/ui/slider';
-import { Textarea } from '@/Components/ui/textarea';
-import { Input } from '@/Components/ui/input';
+} from '@/Layouts1/ui/card';
+import { Label } from '@/Layouts1/ui/label';
+import { Switch } from '@/Layouts1/ui/switch';
+import { Slider } from '@/Layouts1/ui/slider';
+import { Textarea } from '@/Layouts1/ui/textarea';
+import { Input } from '@/Layouts1/ui/input';
 import { 
   AlertCircle, 
   Edit, 

@@ -2,10 +2,10 @@ import { useState } from 'react';
 import { Eye, EyeOff } from 'lucide-react';
 import { useNavigate } from 'react-router-dom';
 
-import InputLabel from '@/Components/InputLabel';
-import TextInput from '@/Components/TextInput';
-import InputError from '@/Components/InputError';
-import PrimaryButton from '@/Components/PrimaryButton';
+import InputLabel from '@/Layouts1/InputLabel';
+import TextInput from '@/Layouts1/TextInput';
+import InputError from '@/Layouts1/InputError';
+import PrimaryButton from '@/Layouts1/PrimaryButton';
 import api from '@/api/apiClient';
 import { useAuthStore } from '@/Stores/authStore';
 

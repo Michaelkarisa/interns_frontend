@@ -2,11 +2,11 @@
 import { useState, useRef, useEffect } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import api from '@/api/apiClient';
-import DangerButton from '@/Components/DangerButton';
-import SecondaryButton from '@/Components/SecondaryButton';
-import InputLabel from '@/Components/InputLabel';
-import InputError from '@/Components/InputError';
-import { Input } from '@/Components/ui/input';
+import DangerButton from '@/Layouts1/DangerButton';
+import SecondaryButton from '@/Layouts1/SecondaryButton';
+import InputLabel from '@/Layouts1/InputLabel';
+import InputError from '@/Layouts1/InputError';
+import { Input } from '@/Layouts1/ui/input';
 import { Eye, EyeOff } from 'lucide-react';
 import { useNavigate } from "react-router-dom";
 

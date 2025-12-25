@@ -1,5 +1,5 @@
 // GuestLayout.jsx
-import ApplicationLogo from '@/Components/ApplicationLogo';
+import ApplicationLogo from '@/Layouts1/ApplicationLogo';
 import Login from '@/Pages/Auth/Login';
 import Register from '@/Pages/Auth/Register';
 import ForgotPassword from '@/Pages/Auth/ForgotPassword';
@@ -10,7 +10,7 @@ import ForceChangePassword from '@/Pages/Auth/ForceChangePassword';
 
 import { useEffect, useState } from 'react';
 import { useAuthStore } from '@/Stores/authStore';
-import { Carousel, CarouselContent, CarouselItem } from "@/Components/ui/carousel";
+import { Carousel, CarouselContent, CarouselItem } from "@/Layouts1/ui/carousel";
 import { ShieldCheck, UserPlus, Lock, Mail, Zap, Users } from "lucide-react";
 import Autoplay from "embla-carousel-autoplay";
 import { Link, Navigate, useLocation, useNavigate } from "react-router-dom";

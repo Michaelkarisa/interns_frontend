@@ -2,10 +2,10 @@
 import { useEffect, useMemo } from 'react';
 import { create } from 'zustand';
 import { motion } from 'framer-motion';
-import { Button } from '@/Components/ui/button';
-import { Input } from '@/Components/ui/input';
-import { Label } from '@/Components/ui/label';
-import { Switch } from '@/Components/ui/switch';
+import { Button } from '@/Layouts1/ui/button';
+import { Input } from '@/Layouts1/ui/input';
+import { Label } from '@/Layouts1/ui/label';
+import { Switch } from '@/Layouts1/ui/switch';
 import { User, Building2, Calendar, Upload, GraduationCap, FileInputIcon } from 'lucide-react';
 import DateInputWithIcon from '@/Layouts/DateInputWithIcon';
 

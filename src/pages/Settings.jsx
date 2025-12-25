@@ -5,12 +5,12 @@ import {
   TabsContent,
   TabsList,
   TabsTrigger
-} from '@/Components/ui/tabs';
-import { Card, CardContent } from '@/Components/ui/card';
-import { Button } from '@/Components/ui/button';
-import { Input } from '@/Components/ui/input';
-import { Label } from '@/Components/ui/label';
-import { Textarea } from '@/Components/ui/textarea';
+} from '@/Layouts1/ui/tabs';
+import { Card, CardContent } from '@/Layouts1/ui/card';
+import { Button } from '@/Layouts1/ui/button';
+import { Input } from '@/Layouts1/ui/input';
+import { Label } from '@/Layouts1/ui/label';
+import { Textarea } from '@/Layouts1/ui/textarea';
 import {
   AlertCircle,
   Upload,

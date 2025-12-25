@@ -1,11 +1,11 @@
 // src/components/projects/ProjectForm.jsx
 import { useState, useEffect } from 'react';
 import axios from 'axios';
-import { Button } from '@/Components/ui/button';
-import { Input } from '@/Components/ui/input';
-import { Textarea } from '@/Components/ui/textarea';
-import { Label } from '@/Components/ui/label';
-import { Switch } from '@/Components/ui/switch';
+import { Button } from '@/Layouts1/ui/button';
+import { Input } from '@/Layouts1/ui/input';
+import { Textarea } from '@/Layouts1/ui/textarea';
+import { Label } from '@/Layouts1/ui/label';
+import { Switch } from '@/Layouts1/ui/switch';
 import { X, Search, UserPlus } from 'lucide-react';
 
 const ProjectForm = ({ initialData, onSave, onCancel, currentInternId }) => {
