@@ -3,7 +3,7 @@ import { Eye, EyeOff } from 'lucide-react';
 import axios from 'axios';
 import { useAuthStore } from '@/Stores/authStore';
 
-import Checkbox from '@/Components/Checkbox';
+import { Checkbox } from '@/Components/ui/checkbox';
 import InputError from '@/Components/InputError';
 import InputLabel from '@/Components/InputLabel';
 import PrimaryButton from '@/Components/PrimaryButton';
