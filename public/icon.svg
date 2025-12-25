@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 40" width="200" height="120">
+  <!-- Mortarboard -->
+  <polygon points="32 0 0 12 32 24 64 12" fill="#000"/>
+
+  <!-- Cap base -->
+  <path d="M16 20 v6 c0 4 8 8 16 8s16-4 16-8v-6l-16 6z" fill="#000"/>
+
+  <!-- Tassel string -->
+  <line x1="48" y1="12" x2="48" y2="24" stroke="#000" stroke-width="2"/>
+
+  <!-- Tassel circle -->
+  <circle cx="48" cy="24" r="3" fill="#000"/>
+
+  <!-- Tassel tail -->
+  <polygon points="45 27 51 27 48 36" fill="#000"/>
+</svg>
