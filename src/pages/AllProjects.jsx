@@ -23,7 +23,7 @@ import {
 import { PaginationControls } from '@/Layouts/PaginationControls';
 import DateInputWithIcon from '@/Layouts/DateInputWithIcon';
 import { Input } from '@/Layouts1/ui/input';
-import api from '@/api/apiClient'; // ✅ Your configured axios instance
+import api from '@/Api/apiClient'; // ✅ Your configured axios instance
 
 // ===========================
 // ZUSTAND STORE (self-contained)

@@ -1,7 +1,7 @@
 // src/pages/Profile/Partials/DeleteUserForm.jsx
 import { useState, useRef, useEffect } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
-import api from '@/api/apiClient';
+import api from '@/Api/apiClient';
 import DangerButton from '@/Layouts1/DangerButton';
 import SecondaryButton from '@/Layouts1/SecondaryButton';
 import InputLabel from '@/Layouts1/InputLabel';

@@ -2,7 +2,7 @@ import { BrowserRouter, Routes, Route, Navigate } from "react-router-dom";
 import Login from "@/Pages/Auth/Login.jsx";
 import Register from "@/Pages/Auth/Register.jsx";
 import Dashboard from "@/Pages/Dashboard.jsx";
-import ProtectedRoute from "@/hooks/ProtectedRoute.jsx";
+import ProtectedRoute from "@/Hooks/ProtectedRoute.jsx";
 import GuestLayout from "@/Layouts/GuestLayout.jsx";
 import AdminLayout from "@/Layouts/AdminLayout.jsx";
 import InternProfile from "@/Pages/InternProfile.jsx";

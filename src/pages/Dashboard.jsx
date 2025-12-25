@@ -11,7 +11,7 @@ import AnimatedNumber from '@/Layouts/AnimatedNumber';
 import { CheckCircle, AlertCircle } from 'lucide-react';
 import InternCard from '@/Pages/Interns/InternCard';
 import { useAdminStore } from '@/Stores/adminStore';
-import api from '@/api/apiClient';
+import api from '@/Api/apiClient';
 
 // ===========================
 // TOAST COMPONENT

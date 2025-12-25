@@ -3,7 +3,7 @@ import { createRoot } from 'react-dom/client'
 import './index.css'
 import App from './App.jsx'
 import { useAuthStore } from '@/Stores/authStore';
-import { useAppStore } from '@/api/favicon';
+import { useAppStore } from '@/Api/favicon';
 
 async function bootstrap() {
   // Init auth first (token, user)

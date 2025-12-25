@@ -37,7 +37,7 @@ import {
   AlertDialogHeader,
   AlertDialogTitle,
 } from "@/Layouts1/ui/alert-dialog";
-import { useAppStore } from '@/api/favicon';
+import { useAppStore } from '@/Api/favicon';
 
 const navItems = [
   { name: 'Dashboard', href: '/dashboard', icon: LayoutDashboard },

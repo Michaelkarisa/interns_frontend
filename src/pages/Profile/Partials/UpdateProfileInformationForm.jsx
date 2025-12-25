@@ -5,7 +5,7 @@ import InputLabel from '@/Layouts1/InputLabel';
 import TextInput from '@/Layouts1/TextInput';
 import InputError from '@/Layouts1/InputError';
 import PrimaryButton from '@/Layouts1/PrimaryButton';
-import api from '@/api/apiClient';
+import api from '@/Api/apiClient';
 import { Input } from '@/Layouts1/ui/input';
 
 export default function UpdateProfileInformation({ user, className = '' }) {

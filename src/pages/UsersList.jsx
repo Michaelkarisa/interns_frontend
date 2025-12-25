@@ -34,7 +34,7 @@ import {
   DialogTitle,
 } from '@/Layouts1/ui/dialog';
 import { Label } from '@/Layouts1/ui/label';
-import api from '@/api/apiClient';
+import api from '@/Api/apiClient';
 
 // ===========================
 // MAIN USERS STORE

@@ -24,7 +24,7 @@ import {
   Edit,
   Settings2Icon,
 } from 'lucide-react';
-import api from '@/api/apiClient';
+import api from '@/Api/apiClient';
 import DeleteUserForm from './Profile/Partials/DeleteUserForm';
 import UpdatePasswordForm from './Profile/Partials/UpdatePasswordForm';
 import UpdateProfileInformation from './Profile/Partials/UpdateProfileInformationForm';

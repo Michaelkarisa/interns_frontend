@@ -4,6 +4,7 @@ import InputError from '@/Layouts1/InputError';
 import PrimaryButton from '@/Layouts1/PrimaryButton';
 import TextInput from '@/Layouts1/TextInput';
 import GuestLayout from '@/Layouts/GuestLayout';
+import api from '@/Api/apiClient';
 
 export default function ForgotPassword({ onAuth }) {
     const [email, setEmail] = useState('');
@@ -18,8 +19,8 @@ export default function ForgotPassword({ onAuth }) {
         setErrors({});
 
         try {
-            const response = await axios.post(
-                '/api/password/email',
+            const response = await api.post(
+                '/password/email',
                 { email },
                 { withCredentials: true }
             );
