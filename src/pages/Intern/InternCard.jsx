@@ -17,7 +17,7 @@ const InternCard = ({ intern }) => {
     <Card className="rounded-2xl shadow-sm border-0 overflow-hidden">
       <CardContent className="p-4 flex items-center gap-4">
         <Avatar className="h-12 w-12">
-          <AvatarImage src={intern?.passport_photo || undefined} />
+          <AvatarImage src={intern?.avatar_url || undefined} />
           <AvatarFallback>{intern?.name?.charAt(0)}</AvatarFallback>
         </Avatar>
 

@@ -330,7 +330,7 @@ const InternTableRow = ({ intern, onViewProfile }) => (
   >
     <TableCell>
       <Avatar className="h-8 w-8">
-        <AvatarImage src={intern.passport_photo || undefined} alt={`${intern.name}'s avatar`} />
+        <AvatarImage src={intern.avatar_url || undefined} alt={`${intern.name}'s avatar`} />
         <AvatarFallback>{intern.name.charAt(0).toUpperCase()}</AvatarFallback>
       </Avatar>
     </TableCell>

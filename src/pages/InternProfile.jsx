@@ -534,7 +534,7 @@ export default function InternProfile() {
           <Card>
             <CardContent className="p-6 text-center">
               <Avatar className="h-24 w-24 mx-auto mb-4">
-                <AvatarImage src={intern.passport_photo || undefined} />
+                <AvatarImage src={intern.avatar_url|| undefined} />
                 <AvatarFallback className="text-2xl">
                   {intern.name.split(' ').map(n => n[0]).join('')}
                 </AvatarFallback>
