@@ -28,7 +28,7 @@ import {
   ArrowLeft 
 } from 'lucide-react';
 import DateInputWithIcon from '@/Layouts/DateInputWithIcon';
-import ProjectList from '@/Project/ProjectList';
+import ProjectList from '@/pages/Project/ProjectList';
 import PerformanceBadge from '@/Layouts/PerformanceBadge';
 import RecommendationBadge from '@/Layouts/RecommendationBadge';
 import api from '@/api/apiClient';

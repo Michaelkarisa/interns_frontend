@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import axios from 'axios';
 import PrimaryButton from '@/components/PrimaryButton';
-import GuestLayout from '@/Layouts/GuestLayout';
+import api from '@/api/apiClient';
 
 export default function VerifyEmail({ status, onAuth }) {
     const [processing, setProcessing] = useState(false);
@@ -15,7 +15,7 @@ export default function VerifyEmail({ status, onAuth }) {
         setMessage('');
 
         try {
-            const response = await axios.post('/api/email/verification-notification', {}, {
+            const response = await api.post('/email/verification-notification', {}, {
                 withCredentials: true,
             });
 
@@ -39,7 +39,7 @@ export default function VerifyEmail({ status, onAuth }) {
 
     const logout = async () => {
         try {
-            await axios.post('/api/logout', {}, { withCredentials: true });
+            await api.post('/logout', {}, { withCredentials: true });
             if (onAuth) onAuth({ user: null });
             window.location.href = '/';
         } catch (error) {

@@ -25,9 +25,9 @@ import {
   Settings2Icon,
 } from 'lucide-react';
 import api from '@/api/apiClient';
-import DeleteUserForm from './Profile/Partials/DeleteUserForm';
-import UpdatePasswordForm from './Profile/Partials/UpdatePasswordForm';
-import UpdateProfileInformation from './Profile/Partials/UpdateProfileInformationForm';
+import DeleteUserForm from '@/pages/Profile/Partials/DeleteUserForm';
+import UpdatePasswordForm from '@/pages/Profile/Partials/UpdatePasswordForm';
+import UpdateProfileInformation from '@/pages/Profile/Partials/UpdateProfileInformationForm';
 // ===========================
 // TOAST COMPONENT
 // ===========================

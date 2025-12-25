@@ -1,6 +1,5 @@
 import { useState, useEffect } from 'react';
 import { Eye, EyeOff } from 'lucide-react';
-import axios from 'axios';
 import { useAuthStore } from '@/Stores/authStore';
 import { Link } from 'react-router-dom';
 import InputError from '@/components/InputError';
@@ -70,10 +69,8 @@ export default function Register() {
         setStatus('');
 
         try {
-            // Ensure CSRF cookie
-            await axios.get('/sanctum/csrf-cookie', { withCredentials: true });
-
-            const response = await axios.post('/api/register', formData, {
+        
+            const response = await api.post('/register', formData, {
                 withCredentials: true,
             });
 
@@ -83,9 +80,7 @@ export default function Register() {
             // Update Zustand store
             setAuth({ ...auth, force_password_change });
 
-            if (!force_password_change) {
-                window.location.href = '/dashboard';
-            }
+          Navigate('/dashboard');
 
             console.log('Register response:', response.data);
         } catch (error) {

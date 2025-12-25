@@ -14,7 +14,6 @@ import { Carousel, CarouselContent, CarouselItem } from "@/components/ui/carouse
 import { ShieldCheck, UserPlus, Lock, Mail, Zap, Users } from "lucide-react";
 import Autoplay from "embla-carousel-autoplay";
 import { Link, Navigate, useLocation, useNavigate } from "react-router-dom";
-import Dashboard from '@/pages/Dashboard';
 import LoadingIndicator from './LoadingIndicator';
 
 // Map paths to components

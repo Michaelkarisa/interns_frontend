@@ -4,7 +4,6 @@ import InputError from '@/components/InputError';
 import InputLabel from '@/components/InputLabel';
 import PrimaryButton from '@/components/PrimaryButton';
 import TextInput from '@/components/TextInput';
-import GuestLayout from '@/Layouts/GuestLayout';
 
 export default function ResetPassword({ token, email, onAuth }) {
     const [formData, setFormData] = useState({

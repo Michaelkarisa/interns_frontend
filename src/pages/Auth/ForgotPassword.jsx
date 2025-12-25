@@ -1,9 +1,7 @@
 import { useState } from 'react';
-import axios from 'axios';
 import InputError from '@/components/InputError';
 import PrimaryButton from '@/components/PrimaryButton';
 import TextInput from '@/components/TextInput';
-import GuestLayout from '@/Layouts/GuestLayout';
 import api from '@/api/apiClient';
 
 export default function ForgotPassword({ onAuth }) {

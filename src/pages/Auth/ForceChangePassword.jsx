@@ -1,7 +1,6 @@
 import { useState } from 'react';
 import { Eye, EyeOff } from 'lucide-react';
 import { useNavigate } from 'react-router-dom';
-
 import InputLabel from '@/components/InputLabel';
 import TextInput from '@/components/TextInput';
 import InputError from '@/components/InputError';

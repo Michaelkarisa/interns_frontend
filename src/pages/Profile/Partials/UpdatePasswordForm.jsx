@@ -4,7 +4,6 @@ import { motion, AnimatePresence } from 'framer-motion';
 import { Eye, EyeOff } from 'lucide-react';
 import axios from 'axios';
 import InputLabel from '@/components/InputLabel';
-import TextInput from '@/components/TextInput';
 import InputError from '@/components/InputError';
 import PrimaryButton from '@/components/PrimaryButton';
 import { Input } from '@/components/ui/input';
