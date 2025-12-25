@@ -6,7 +6,7 @@ import DangerButton from '@/Components/DangerButton';
 import SecondaryButton from '@/Components/SecondaryButton';
 import InputLabel from '@/Components/InputLabel';
 import InputError from '@/Components/InputError';
-import { Input } from '@/components/ui/input';
+import { Input } from '@/Components/ui/input';
 import { Eye, EyeOff } from 'lucide-react';
 import { useNavigate } from "react-router-dom";
 

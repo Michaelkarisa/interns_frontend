@@ -6,20 +6,20 @@ import {
   TabsContent,
   TabsList,
   TabsTrigger
-} from '@/components/ui/tabs';
-import { Avatar, AvatarFallback, AvatarImage } from '@/components/ui/avatar';
-import { Button } from '@/components/ui/button';
+} from '@/Components/ui/tabs';
+import { Avatar, AvatarFallback, AvatarImage } from '@/Components/ui/avatar';
+import { Button } from '@/Components/ui/button';
 import { 
   Card, 
   CardContent, 
   CardHeader, 
   CardTitle 
-} from '@/components/ui/card';
-import { Label } from '@/components/ui/label';
-import { Switch } from '@/components/ui/switch';
-import { Slider } from '@/components/ui/slider';
-import { Textarea } from '@/components/ui/textarea';
-import { Input } from '@/components/ui/input';
+} from '@/Components/ui/card';
+import { Label } from '@/Components/ui/label';
+import { Switch } from '@/Components/ui/switch';
+import { Slider } from '@/Components/ui/slider';
+import { Textarea } from '@/Components/ui/textarea';
+import { Input } from '@/Components/ui/input';
 import { 
   AlertCircle, 
   Edit, 

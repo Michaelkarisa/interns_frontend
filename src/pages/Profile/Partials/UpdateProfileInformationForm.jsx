@@ -6,7 +6,7 @@ import TextInput from '@/Components/TextInput';
 import InputError from '@/Components/InputError';
 import PrimaryButton from '@/Components/PrimaryButton';
 import api from '@/api/apiClient';
-import { Input } from '@/components/ui/input';
+import { Input } from '@/Components/ui/input';
 
 export default function UpdateProfileInformation({ user, className = '' }) {
     const [formData, setFormData] = useState({

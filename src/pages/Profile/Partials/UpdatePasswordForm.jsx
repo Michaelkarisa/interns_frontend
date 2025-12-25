@@ -7,7 +7,7 @@ import InputLabel from '@/Components/InputLabel';
 import TextInput from '@/Components/TextInput';
 import InputError from '@/Components/InputError';
 import PrimaryButton from '@/Components/PrimaryButton';
-import { Input } from '@/components/ui/input';
+import { Input } from '@/Components/ui/input';
 
 export default function UpdatePasswordForm({ className = '' }) {
     const passwordInput = useRef();
