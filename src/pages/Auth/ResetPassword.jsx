@@ -1,9 +1,9 @@
 import { useState } from 'react';
-import axios from 'axios';
 import InputError from '@/components/InputError';
 import InputLabel from '@/components/InputLabel';
 import PrimaryButton from '@/components/PrimaryButton';
 import TextInput from '@/components/TextInput';
+import api from '@/api/apiClient';
 
 export default function ResetPassword({ token, email, onAuth }) {
     const [formData, setFormData] = useState({
@@ -23,7 +23,7 @@ export default function ResetPassword({ token, email, onAuth }) {
         setStatus('');
 
         try {
-            const response = await axios.post('/api/password/reset', formData, {
+            const response = await api.post('/api/password/reset', formData, {
                 withCredentials: true,
             });
 

@@ -14,7 +14,7 @@ import DateInputWithIcon from '@/Layouts/DateInputWithIcon';
 import InternForm from '@/pages/Intern/InternForm';
 import PerformanceBadge from '@/Layouts/PerformanceBadge';
 import RecommendationBadge from '@/Layouts/RecommendationBadge';
-import api from '@/assets/apiClient';
+import api from '@/api/apiClient';
 
 // ===========================
 // ZUSTAND STORE (Complete state & logic)

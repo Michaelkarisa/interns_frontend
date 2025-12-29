@@ -2,11 +2,11 @@
 import { useRef, useState, useEffect } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { Eye, EyeOff } from 'lucide-react';
-import axios from 'axios';
 import InputLabel from '@/components/InputLabel';
 import InputError from '@/components/InputError';
 import PrimaryButton from '@/components/PrimaryButton';
 import { Input } from '@/components/ui/input';
+import api from '@/api/apiClient';
 
 export default function UpdatePasswordForm({ className = '' }) {
     const passwordInput = useRef();
@@ -74,7 +74,7 @@ export default function UpdatePasswordForm({ className = '' }) {
         setSaved(false);
 
         try {
-            await axios.put('/user/password', {
+            await api.put('/user/password', {
                 current_password: formData.current_password,
                 password: formData.password,
                 password_confirmation: formData.password_confirmation,

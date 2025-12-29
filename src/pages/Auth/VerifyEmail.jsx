@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import axios from 'axios';
 import PrimaryButton from '@/components/PrimaryButton';
-import api from '@/assets/apiClient';
+import api from '@/api/apiClient';
 
 export default function VerifyEmail({ status, onAuth }) {
     const [processing, setProcessing] = useState(false);

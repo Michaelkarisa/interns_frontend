@@ -4,7 +4,7 @@ import { motion, AnimatePresence } from 'framer-motion';
 import InputLabel from '@/components/InputLabel';
 import InputError from '@/components/InputError';
 import PrimaryButton from '@/components/PrimaryButton';
-import api from '@/assets/apiClient';
+import api from '@/api/apiClient';
 import { Input } from '@/components/ui/input';
 
 export default function UpdateProfileInformation({ user, className = '' }) {

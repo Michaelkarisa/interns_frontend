@@ -1,9 +1,9 @@
 import { useState } from 'react';
-import axios from 'axios';
 import InputLabel from '@/components/InputLabel';
 import TextInput from '@/components/TextInput';
 import InputError from '@/components/InputError';
 import PrimaryButton from '@/components/PrimaryButton';
+import api from '@/api/apiClient';
 
 export default function ConfirmPassword({ onAuth }) {
     const [password, setPassword] = useState('');
@@ -18,7 +18,7 @@ export default function ConfirmPassword({ onAuth }) {
         setMessage('');
 
         try {
-            const response = await axios.post(
+            const response = await api.post(
                 '/api/password/confirm',
                 { password },
                 { withCredentials: true }
