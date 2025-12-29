@@ -12,6 +12,9 @@ import UsersManagement from "@/pages/UsersList.jsx";
 import AuditLogs from "@/pages/AuditLogs.jsx";
 import Settings from "@/pages/Settings.jsx";
 import ForceChangePassword from "@/pages/Auth/ForceChangePassword.jsx";
+import ForgotPassword from "./pages/Auth/ForgotPassword";
+import ResetPassword from "./pages/Auth/ResetPassword";
+import VerifyEmail from "./pages/Auth/VerifyEmail";
 
 export default function App() {
   return (
@@ -26,6 +29,11 @@ export default function App() {
           <Route path="/login" element={<Login />} />
           <Route path="/register" element={<Register />} />
           <Route path="/force-change-password" element={<ForceChangePassword/>}/>
+          <Route path="/forgot-password" element={<ForgotPassword/>}/>
+          <Route path="/reset-password" element={<ResetPassword/>}/>
+           <Route path="/verify-email" element={<VerifyEmail/>}/>
+          
+          
         </Route>
 
         {/* Protected routes */}
