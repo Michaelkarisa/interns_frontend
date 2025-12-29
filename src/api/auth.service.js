@@ -1,5 +1,4 @@
-import api from "../assets/apiClient"; // axios instance with Authorization header
-
+import api from "./apiClient";
 // LOGIN - returns user + token
 export const login = async (data) => {
   const res = await api.post("/login", data);

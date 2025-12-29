@@ -1,4 +1,4 @@
-import api from "../assets/apiClient";
+import api from "./apiClient";
 
 export const createIntern = async (internData) => {
   return api.post("/api/interns", internData);
