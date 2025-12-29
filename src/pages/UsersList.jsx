@@ -34,7 +34,7 @@ import {
   DialogTitle,
 } from '@/components/ui/dialog';
 import { Label } from '@/components/ui/label';
-import api from '@/api/apiClient';
+import api from '@/assets/apiClient';
 
 // ===========================
 // MAIN USERS STORE

@@ -5,7 +5,7 @@ import InputLabel from '@/components/InputLabel';
 import TextInput from '@/components/TextInput';
 import InputError from '@/components/InputError';
 import PrimaryButton from '@/components/PrimaryButton';
-import api from '@/api/apiClient';
+import api from '@/assets/apiClient';
 import { useAuthStore } from '@/Stores/authStore';
 
 export default function ForceChangePassword() {

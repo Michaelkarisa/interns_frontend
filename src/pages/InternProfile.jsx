@@ -31,7 +31,7 @@ import DateInputWithIcon from '@/Layouts/DateInputWithIcon';
 import ProjectList from '@/pages/Project/ProjectList';
 import PerformanceBadge from '@/Layouts/PerformanceBadge';
 import RecommendationBadge from '@/Layouts/RecommendationBadge';
-import api from '@/api/apiClient';
+import api from '@/assets/apiClient';
 import { create } from 'zustand';
 
 // ===========================

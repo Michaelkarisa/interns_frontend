@@ -1,6 +1,6 @@
 // src/Stores/appStore.js
 import { create } from "zustand";
-import api from "./apiClient";
+import api from "../assets/apiClient";
 
 export const useAppStore = create((set) => ({
   appName: "Loading...",

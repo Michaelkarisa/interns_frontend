@@ -10,7 +10,7 @@ import AnimatedNumber from '@/Layouts/AnimatedNumber';
 import { CheckCircle, AlertCircle } from 'lucide-react';
 import InternCard from '@/pages/Intern/InternCard';
 import { useAdminStore } from '@/Stores/adminStore';
-import api from '@/api/apiClient';
+import api from '@/assets/apiClient';
 
 // ===========================
 // TOAST COMPONENT

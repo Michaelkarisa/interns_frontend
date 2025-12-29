@@ -2,7 +2,7 @@ import { useState } from 'react';
 import InputError from '@/components/InputError';
 import PrimaryButton from '@/components/PrimaryButton';
 import TextInput from '@/components/TextInput';
-import api from '@/api/apiClient';
+import api from '@/assets/apiClient';
 
 export default function ForgotPassword({ onAuth }) {
     const [email, setEmail] = useState('');

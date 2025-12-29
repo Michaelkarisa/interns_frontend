@@ -1,5 +1,5 @@
 import { create } from 'zustand';
-import api from '@/api/apiClient';
+import api from '@/assets/apiClient';
 
 export const useAdminStore = create((set) => ({
   auth: null,
